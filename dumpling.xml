@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device -->
+    <project name="aoscp-dumpling/device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="parfait-release" />
+    <project name="aoscp-dumpling/device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="parfait-release" />
+    <project name="aoscp-dumpling/device_oneplus_common" path="device/oneplus/common" remote="github" revision="parfait-release" />
+    <project name="device_qcom_common" path="device/qcom/common" remote="aoscp" revision="parfait-release" />
+
+    <!-- Kernel -->
+    <project name="aoscp-dumpling/kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="parfait-release" />
+
+    <!-- Vendor -->
+    <project name="aoscp-dumpling/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="parfait-release" />
+</manifest>
